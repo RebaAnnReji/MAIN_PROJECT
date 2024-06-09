@@ -1,0 +1,195 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hi there. What can I do for you?",
+                "Hi there, How can I help?"
+            ]
+        },
+        {
+            "tag": "personal",
+            "patterns": [
+                "How are you?",
+                "How are you doing?",
+                "How is your day?"
+            ],
+            "responses": [
+                "I'm good, all's good, thanks. How about you?"
+            ]
+        },
+        {
+            "tag": "user response",
+            "patterns": [
+                "I'm good",
+                "Im good",
+                "Im doing good",
+                "I am good",
+                "I am okay"
+            ],
+            "responses": [
+                "Great to hear you are doing good."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting. Hope I was able to help!",
+                "Have a nice day. Hope I was able to help!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "thx",
+                "thnks"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "feeling",
+            "patterns": [
+                "I am not feeling okay",
+                "I am feeling sad",
+                "I am feeling anxious",
+                "I can't control myself",
+                "I am having mood swings"
+            ],
+            "responses": [
+                "It's okay to recognize your feeling.Let's explore some options to help you feel more centered and at ease. If you're open to it, you can try a simple meditation exercise to calm your nerves. Just let me know by typing meditate. Additionally, reading a book can be a soothing and enriching activity. If you'd like some book recommendations, feel free to type books and I can offer some suggestions."
+            ]
+        },
+        {
+            "tag": "meditate",
+            "patterns": [
+                "Meditate",
+                "Meditation suggestion",
+                "Suggest me some simple meditation",
+                "I want to calm my nerves"
+            ],
+            "responses": [
+                "Ok, let's begin.... Find a quiet space and sit comfortably. Then focus on your breathing and allow yourself to acknowledge any emotions or thoughts that arise without judgment. Then, take a few moments to think about something you're grateful for, no matter how small. Focus on the positive feelings associated with this gratitude. Picture yourself in a peaceful and serene setting, such as a quiet beach or a tranquil forest. Slowly begin to lengthen your exhale, allowing each breath out to be longer than the breath in. When you feel ready, gently open your eyes and take a moment to notice how you feel. Carry this sense of calm and presence with you as you continue with your day."
+            ]
+        },
+        {
+            "tag": "sober",
+            "patterns": [
+                "Will I be able to stay sober?",
+                "Am I capable of maintaining sobriety?",
+                "Can I remain free from addiction?",
+                "Is it possible for me to abstain from drugs?",
+                "Will I have the strength to stay away from substance abuse?"
+            ],
+            "responses": [
+                "Absolutely, staying sober is a journey, and while it may have its challenges, you have already taken a significant step forward by acknowledging your struggle and seeking help. Remember, you're not alone in this journey. With determination, support, and the right resources, many have overcome addiction and rebuilt fulfilling lives. Take it one day at a time, focus on your progress, and believe in yourself. You have the strength within you to stay sober and create a brighter future."
+            ]
+        },
+        {
+            "tag": "cravings and triggers",
+            "patterns": [
+                "How can I manage cravings and triggers? ",
+                "What strategies can I employ to handle cravings and triggers effectively?",
+                "What are some techniques I can use to cope with cravings and triggers?",
+                "How do I deal with cravings and triggers in a healthy manner?",
+                "What steps can I take to navigate through cravings and triggers successfully?",
+                "What methods exist to help me overcome cravings and avoid triggers?"
+            ],
+            "responses": [
+                "Absolutely, you have the strength within you to maintain your sobriety. Remember, every day sober is a victory, and you've already taken the courageous step of seeking recovery. Surround yourself with supportive individuals, stay focused on your goals, and celebrate each milestone along the way. You're capable of overcoming any challenges that come your way, and I believe in your ability to stay sober and live a fulfilling life."
+            ]
+        },
+        {
+            "tag": "relationship",
+            "patterns": [
+                "How do I rebuild relationships that were damaged by my addiction?",
+                "What steps can I take to mend relationships strained by my addiction?",
+                "How can I repair the bonds that were broken due to my addiction?",
+                "What strategies can I use to rebuild trust and connection with those affected by my addiction?",
+                "In what ways can I work towards healing and restoring relationships impacted by my addiction?",
+                "What actions can I initiate to reconcile with loved ones affected by my addiction?"
+            ],
+            "responses": [
+                "You have the strength within you to rebuild the relationships that were affected by your addiction. It won't be easy, but every step you take towards healing is a step towards a brighter future. Start by acknowledging past mistakes and expressing genuine remorse to those you've hurt. Show them through your actions that you're committed to positive change and growth. Be patient and understanding, realizing that rebuilding trust takes time. Surround yourself with a supportive network of friends, family, or professionals who can provide encouragement and guidance along the way. Remember, every effort you make towards repairing these relationships brings you closer to a life filled with love, connection, and fulfillment."
+            ]
+        },
+        {
+            "tag": "relapse",
+            "patterns": [
+                "What steps can I take to prevent relapse?",
+                "How can I fortify myself against relapse?",
+                "What measures should I implement to safeguard against relapsing?",
+                "How do I build a strong defense mechanism to prevent relapse?",
+                "What strategies can I adopt to maintain my sobriety and avoid falling back into old habits?",
+                "What proactive steps can I take to stay on track and prevent any setbacks in my recovery journey?"
+            ],
+            "responses": [
+                "Absolutely, staying sober is an achievable goal, and you've already taken the first step by acknowledging the need for change. Remember, recovery is a journey, and while challenges may arise, each day sober is a victory worth celebrating. Surround yourself with supportive individuals, engage in healthy activities that bring you joy, and remind yourself of your strengths and progress. You have the resilience and determination to overcome any obstacles that come your way. Keep moving forward, one day at a time, and trust in your ability to create a brighter, sober future for yourself."
+            ]
+        },
+        {
+            "tag": "books",
+            "patterns": [
+                "books",
+                "Suggest me some books",
+                "What can I read during this time?"
+            ],
+            "responses": [
+                "Clean: Overcoming Addiction and Ending America’s Greatest Tragedy by David Sheff: This book provides a comprehensive look at addiction and recovery, offering hope and practical advice for those seeking to overcome addiction. https://www.davidsheff.com/clean/ - This link can get you the book",
+                "Recovery: Freedom from Our Addictions by Russell Brand: Russell Brand shares his personal journey of addiction and recovery in this candid and insightful book, offering wisdom and encouragement to others on the same path. https://bdebooks.com/en/books/recovery-freedom-from-our-addictions-by-russell-brand - This link can get you the book",
+                "Beautiful Boy: A Father's Journey Through His Son's Addiction by David Sheff: Another powerful book by David Sheff, Beautiful Boy chronicles his experience as a father grappling with his son's addiction, offering a poignant and ultimately hopeful exploration of love, resilience, and the road to recovery. https://www.goodreads.com/book/show/35721089-beautifu-boy - This link can get you the book",
+                "Unbroken Brain: A Revolutionary New Way of Understanding Addiction by Maia Szalavitz: This book challenges traditional views of addiction and offers a fresh perspective on recovery, emphasizing compassion, understanding, and evidence-based approaches to treatment. https://books.google.co.in/books/about/Unbroken_Brain.html?id=4yJ3CgAAQBAJ&redir_esc=y - This link can get you the book",
+                "Dopesick: Dealers, Doctors, and the Drug Company that Addicted America by Beth Macy: While this book focuses more on the opioid epidemic in America, it sheds light on the devastating impact of addiction and the importance of finding solutions and support. https://books.google.co.in/books/about/Dopesick.html?id=23BBDwAAQBAJ&redir_esc=y - This link can get you the book"
+            ]
+        },
+        {
+            "tag": "support system",
+            "patterns": [
+                "How can I find a support system to help me through recovery?",
+                "What avenues are available for me to connect with others who understand and support my journey toward recovery?",
+                "Where can I seek out communities or groups that provide guidance and encouragement during the recovery process?",
+                "How can I build a network of individuals who can offer empathy, advice, and solidarity as I navigate through my recovery?",
+                "What resources exist in my community or online that foster a sense of belonging and understanding for individuals in recovery?",
+                "In what ways can I proactively seek out support networks that align with my values and goals for maintaining sobriety?"
+            ],
+            "responses": [
+                "Finding a support system during recovery is like finding a lifeline in the stormy sea. Surrounding yourself with understanding, compassionate individuals who have walked a similar path can provide immense strength and inspiration. You're not alone in this journey. By reaching out and connecting with others who share your struggles and triumphs, you're creating a network of support that can uplift you during challenging times. Together, we can overcome obstacles, celebrate victories, and walk hand in hand toward a brighter, sober future. Believe in yourself, take that first step, and know that you have a community of caring souls ready to lift you up along the way. Type support to get the details and links of support groups available"
+            ]
+        },
+        {
+            "tag": "books",
+            "patterns": [
+                "books",
+                "Suggest me some books",
+                "What can I read during this time?"
+            ],
+            "responses": [
+                "Clean: Overcoming Addiction and Ending America’s Greatest Tragedy by David Sheff: This book provides a comprehensive look at addiction and recovery, offering hope and practical advice for those seeking to overcome addiction. https://www.davidsheff.com/clean/ - This link can get you the book",
+                "Recovery: Freedom from Our Addictions by Russell Brand: Russell Brand shares his personal journey of addiction and recovery in this candid and insightful book, offering wisdom and encouragement to others on the same path. https://bdebooks.com/en/books/recovery-freedom-from-our-addictions-by-russell-brand - This link can get you the book",
+                "Beautiful Boy: A Father's Journey Through His Son's Addiction by David Sheff: Another powerful book by David Sheff, Beautiful Boy chronicles his experience as a father grappling with his son's addiction, offering a poignant and ultimately hopeful exploration of love, resilience, and the road to recovery. https://www.goodreads.com/book/show/35721089-beautifu-boy - This link can get you the book",
+                "Unbroken Brain: A Revolutionary New Way of Understanding Addiction by Maia Szalavitz: This book challenges traditional views of addiction and offers a fresh perspective on recovery, emphasizing compassion, understanding, and evidence-based approaches to treatment. https://books.google.co.in/books/about/Unbroken_Brain.html?id=4yJ3CgAAQBAJ&redir_esc=y - This link can get you the book",
+                "Dopesick: Dealers, Doctors, and the Drug Company that Addicted America by Beth Macy: While this book focuses more on the opioid epidemic in America, it sheds light on the devastating impact of addiction and the importance of finding solutions and support. https://books.google.co.in/books/about/Dopesick.html?id=23BBDwAAQBAJ&redir_esc=y - This link can get you the book"
+            ]
+        }
+    ]
+}
